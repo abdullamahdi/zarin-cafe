@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { supabase } from "@/lib/supabase";
-
+import LogoutButton from "@/app/components/LogoutButton";
 // ─── TABS ─────────────────────────────────────────────────────────────────────
 const TABS = [
   { key: "menu",       label: "Menu Items",  icon: "🍽️" },
